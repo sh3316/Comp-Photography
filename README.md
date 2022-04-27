@@ -1,3 +1,3 @@
-# Cgeorgia institute of technology Comp-Photography Project
+# Georgia institute of technology Comp-Photography Project
 
 Project & Assignments Codes
