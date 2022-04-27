@@ -13,61 +13,6 @@ the appropriate code, following the instructions in the docstring for each
 function. Make sure that you know which commands and libraries you may or may
 not use.
 
-GENERAL RULES:
-    1. DO NOT INCLUDE code that saves, shows, displays, prints, or writes
-    over the image that you are being passed in. Any code line that you may
-    have in your code to complete these actions must be commented out when
-    you turn in your code. These actions may cause the autograder to crash,
-    which will count as one of your limited attempts.
-
-    2. DO NOT import any other libraries aside from the libraries that we
-    provide. You may not import anything else, you should be able to complete
-    the assignment with the given libraries (and in most cases without them).
-
-    3. DO NOT change the format of this file. You may NOT change function
-    type signatures (not even named parameters with defaults). You may add
-    additional code to this file at your discretion, however it is your
-    responsibility to ensure that the autograder accepts your submission.
-
-    4. This file has only been tested in the course environment.
-    You are responsible for ensuring that your code executes properly in the
-    course environment and in the Gradescope autograder. Any changes you make
-    outside the areas annotated for student code must not impact your performance
-    on the autograder system.
-    Thank you.
-"""
-
-
-def returnYourName():
-    """ When it is called, this function should return your official name as
-    shown on your Gradescope Account for full credit.
-
-    To find your name, login to Gradescope, and click ACCOUNT > Edit Account in the
-    bottom left corner. Your official Gradescope name is shown down the page in the
-    "Course-Specific Information" section, for course CS6475. It is NOT necessarily
-    the same as the Full Name at the top.
-
-    If you are still not sure what name to use, then the first time you submit this
-    file to A0_Introduction Resources in Gradescope, the autograder will print an
-    error message with your name.
-
-    Parameters
-    ----------
-    input : none
-
-    Returns
-    -------
-    output : string
-        a string formatted as follows: your official name as shown on your
-        Gradescope Account
-    """
-    # WRITE YOUR CODE HERE.
-    return 'SeungHui Huh'
-
-    # End of code
-    raise NotImplementedError
-
-
 def imageDimensions(image):
     """ This function takes your input image and returns its array shape.
     You may use a numpy command to find the shape.
